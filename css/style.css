@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    font-family: system-ui;
+}
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+ display: none;
+}
+#main-nav{
+  background-color: transparent;
+}
+section{
+    height: 100vh;
+}
+#home{
+     background: url('../images/bg.jpg');
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.custom-col{
+    margin-top:25%;
+}
+.names{
+    color: rgb(81, 123, 160);
+}
+.main {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.icon{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color:#b3aeae;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgb(150, 150, 150,.3);
+    transition: all  .3s ease-out;
+    
+}
+
+.icon:hover{
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fafafa;
+
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-facebook{
+    color: #1A6ED8;
+}
+.fb:hover{
+    background: #1A6ED8;
+}
+.icon:hover i{
+    color: #fff;
+}
+.icon .fa-github   {
+    color: #071424;
+}
+.git:hover{
+    background: #721cd4;
+}
+.icon .fa-twitter{
+    color: #4b91e7;
+}
+.twt:hover{
+    background: #1A6ED8;
+}
+.icon .fa-tiktok{
+    color: #18202c;
+}
+.tik:hover{
+    background: #0b1016;
+}
+.icon .tik .fa-brands {
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+   
+
+
+
+.carousel-item img{
+     height:55rem !important;
+     margin-top: .2rem !important;
+    
+    
+}
+ 
+#about h1{
+    margin-top: 30!important;
+}
+.card{
+    padding: 30px;
+    margin: 60px;
+    float: left !important;
+    padding-left: 10px !important;
+    
+
+}
+.card img{
+    height: 270px !important;
+    float: left !important;
+}
+
+.card img{
+    height: 300px !important;
+    float: left !important;
+}
+    
+
+.card-text{
+    font-size:1.3rem;
+    float: left !important;
+}
+
+.card-body h5{
+    font-size: 1rem;
+}
+.background{
+    background: url('../images/4k.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundact1{
+    background: url('../images/wallpaper.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backgroundact2{
+    background: url('../images/wallpaper2.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

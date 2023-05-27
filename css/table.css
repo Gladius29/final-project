@@ -1,0 +1,66 @@
+
+table,th,td{
+  border: 2px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  margin-top: 5%;
+  text-align: center;
+  font-weight: lighter;
+
+
+}
+table{
+    width: 20%;
+    height: 45rem;
+    font-size: 80%;
+ 
+  
+}
+.reactive{
+  background-color: rgb(199, 222, 241);
+  color: blue;
+ 
+}
+.alkali{
+  background-color: rgba(169, 255, 245, 0.781);
+  color: rgb(59, 97, 97);
+}
+.alkaline{
+  background-color: rgb(231, 176, 176);
+  color: red;
+}
+.metalloids{
+  background-color: rgb(241, 217, 184);
+  color: brown;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+.post{
+  background-color: rgb(160, 206, 160);
+  color:green;
+}
+.transition{
+  background-color: rgb(212, 187, 236);
+  color: rgb(77, 61, 224);
+}
+.lanthanides{
+  background-color: rgb(166, 215, 235);
+  color: black;
+}
+.actinides{
+  background-color: rgb(243, 224, 177);
+  color: rgb(119, 45, 45);
+}
+.unknown{
+  background-color: rgba(190, 182, 182, 0.925);
+}
+.title{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+}
+.title2{
+  color: orange;
+  outline-offset: 15px;
+  outline: 1px
+}
+.groove{
+  outline-style: solid;
+   margin-left: 30px;
+}

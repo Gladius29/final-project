@@ -1,0 +1,21 @@
+.card{
+    padding: 30px;
+    margin: 60px;
+    float: left;
+    padding-left: 30px !important;
+    
+
+}
+.card img{
+    height: 270px !important;
+}
+.card img{
+    height: 300px !important;
+    
+}
+.card-text{
+    font-size:1.3rem;
+}
+.card-body h5{
+    font-size: 1rem;
+}
